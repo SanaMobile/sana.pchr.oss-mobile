@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_type">edu.mit.mhealthsyria</string>
+    <string name="content_authority">edu.mit.mhealthsyria</string>
+    <string name="account_tokenType">Full access</string>
+
+    <string name="app_name">Sana.PCHR</string>
+    <string name="LoginActivity">Login</string>
+    <string name="menu_text_logout">Logout</string>
+
+    <string name="add">Add</string>
+    <string name="clear">Clear</string>
+    <string name="dialog_text_clear_title">Clear?</string>
+
+    <string name="credential_choose_clinic">Select Clinic</string>
+    <string name="connectionNone">No Internet connection detected</string>
+
+    <string name='cancel'>Cancel</string>
+    <string name='error'>Error</string>
+    <string name='yes'>Yes</string>
+    <string name='no'>No</string>
+    <string name='ok'>OK</string>
+    <string name="action_settings">Settings</string>
+    <string name="finish">Finish</string>
+
+    <string name='answer'>Answer:</string>
+
+    <string name='searchPhys'>Search Users</string>
+    <string name="searchOnline">Search Online</string>
+
+    <string name="pin">Enter PIN</string>
+
+    <string name="scanID">Scan Patient QR code</string>
+    <string name="searchPatient">Search Patients</string>
+    <string name="addPatient">Add New Patient</string>
+
+    <string name="category">Reason for visit</string>
+
+    <string name='finishPrint'>Finish and Print</string>
+
+    <string name='start'>Start</string>
+    <string name='stop'>Stop</string>
+    <string name='modify'>Modify</string>
+
+    <string name='endDate'>End Date</string>
+
+    <string name='comment'>Comment:</string>
+
+    <string name="gender">Gender:</string>
+
+    <string name="invalid">Invalid</string>
+    <string name="invalid_bounds">Value outside of accepted range</string>
+    <string name="confirm">Confirm</string>
+    <string name="alt_login">No QR Code Available</string>
+
+
+    <string name="scan">Scan</string>
+
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="delete_meds">Delete medication?</string>
+
+    <string name="name">Name </string>
+    <string name="update_record">Update Record</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="add_patient_tv_info">Please enter patient information below</string>
+
+    <string name="enter_button_text">Enter</string>
+    <string name="homepage_welcom_tv">Welcome</string>
+    <string name="welcome_message_default">Mr. Doctor</string>
+    <string name="take_picture_button_text">Take Picture</string>
+    <string name="add_doc_pin_info_tv">Your PIN is four numbers that you will use to login</string>
+    <string name="add_doc_pin_label_tv">PIN</string>
+
+    <string name="add_doc_recover_info_tv">You will use the recovery question in case you forget your pin</string>
+    <string name="add_doc_question_label">Question:</string>
+
+    <string name="medication">Medication</string>
+    <string name="edit_med_dose_label">Dose</string>
+    <string name="edit_med_end_date"> End Date:</string>
+    <string name="frag_work_order_default_med">Some Medication dose interval</string>
+    <string name="search_by">Search by:</string>
+    <string name="search">Search</string>
+    <string name="search_server">Patient Not Found, Search Server</string>
+    <string name="toast_input_unchr">Please input in a UNCHR then try again</string>
+    <string name="patient_selected_dialog_title">Confirm Patient Selection</string>
+    <string name="default_patient_name">Jonathan Ryders</string>
+    <string name="age">Age</string>
+    <string name="physician_server_search_title">Enter at least one of the fields below</string>
+    <string name="physician_server_search_error">Must enter an email and/or a phone number</string>
+    <string name="edit_med_times"> times per </string>
+    <string name="medication_group">Medication Group</string>
+    <string name="medication_category">Medication Category</string>
+    <string name="recomendations">Recommendations</string>
+    <string name="chose_category_prompt">Please choose a category:</string>
+    <string name="recommend_test">Recommend Test</string>
+    <string name="forgot_pin">Forgot PIN</string>
+    <string name="pin_colon">PIN:</string>
+
+    <string name="value_colon">Value: </string>
+
+    <string name="default_value_result">Value/Result</string>
+    <string name="default_comments">Comments......\nsafdsaf</string>
+    <string name="click_to_add_test">CLICK\nTO ADD\nTEST</string>
+    <string name="display_name">Display Name</string>
+    <string name="units">units</string>
+    <string name="none">None</string>
+    <string name="make_order">Treatment Plan</string>
+    <string name="never">Never</string>
+    <string name="pick">Pick</string>
+    <string name="stop_medication">Stop Medication</string>
+    <string name="logging_out_user">Logging out user</string>
+    <string name="check_device_provision">Check Device Provision</string>
+    <string name="checking_please_wait">Checking Provision and credential updates…please wait…</string>
+    <string name="failure">Failure</string>
+    <string name="success_provision_device">Successfully provisioned device for first time use</string>
+    <string name="scan_again">Do you want to scan again?</string>
+    <string name="scan_unsuccessful">Scan unsuccessful!</string>
+    <string name="user_not_found">User not found!</string>
+    <string name="invalid_pin_format">Invalid PIN! You have %d attempt(s) left</string>
+    <string name="login">Login</string>
+    <string name="loggin_unsuccessful">Login Unsuccessful</string>
+    <string name="loggin_successful">Login Successful</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="city_of_birth">City of Birth</string>
+    <string name="UNCHR">UNCHR</string>
+    <string name="year_of_birth">Year of Birth</string>
+
+    <string name="error_adding_new_patient">Error adding new patient</string>
+    <string name="adding_patient">Adding Patient</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="value">Value</string>
+    <string name="loading">Loading</string>
+    <string name="wait_record_adding">Please wait while the record is being added</string>
+    <string name="error_creating_record">Error creating record</string>
+
+    <string name="add_recommendation">Add Recommendation</string>
+    <string name="must_first_name">Must input first name</string>
+    <string name="must_last_name">Must input last name</string>
+    <string name="looking_up_patient">Looking up Patient. Please wait…</string>
+    <string name="patient_not_found">Patient cannot be found!</string>
+    <string name="credentialing">Credentialing</string>
+    <string name="downloading_clinic_wait">Downloading Clinic List. Please wait…</string>
+
+    <string name="credential_list">Credential List</string>
+    <string name="downloading_cred_list_wait">Downloading Credential List. Please wait…</string>
+    <string name="not_update_cred_no_internet">Did not update credential list. No internet.</string>
+    <string name="got_cred_list">Successfully got credential list</string>
+    <string name="encounter_category">Encounter Category</string>
+    <string name="add_record">Add Record</string>
+    <string name="add_test">Add Test</string>
+    <string name="no_patients_found">No patients were found!</string>
+    <string name="options">Actions</string>
+    <string name="search_by_colon">Search by:</string>
+    <string name="last_updated">Last Updated</string>
+    <string name="last_name_colon">Last Name:</string>
+    <string name="first_name_colon">First Name:</string>
+    <string name="city_of_birth_colon">City of Birth:</string>
+    <string name="unchr_colon">UNCHR:</string>
+    <string name="year_of_birth_colon">Year of Birth:</string>
+    <string name="email_colon">Email:</string>
+    <string name="phone_colon">Phone:</string>
+    <string name="active_meds">Current Medications</string>
+    <string name="sync_now">Sync Now</string>
+    <string name="suggested_med_title">Suggested medications</string>
+    <string name="add_medical_history">Add Medical History</string>
+    <string name="add_physical_exam">Add Physical Exam</string>
+    <string name="add_lab_test">Add Lab Test</string>
+    <string name="minimum">Minimum: </string>
+    <string name="maximum">Maximum: </string>
+
+    <string name="provider_id">Medical File #:</string>
+    <string name="type">Type</string>
+    <string name="edit_patient">Edit patient</string>
+    <string name="password">Password</string>
+    <string name="downloading_data_wait">Downloading initial data</string>
+
+    <string name="disclaimer">Disclaimer:</string>
+    <string name="adjust_or_stop"> Adjust/Stop  </string>
+
+    <string name="title_activity_print_dialog">Print</string>
+
+    <string name="adjust_dose">Adjust Dose: </string>
+
+    <string name="test">Test</string>
+    <string name="date">Date</string>
+    <string name="doctor_name">Care Provider</string>
+    <string name="medication_name">Medication Name</string>
+
+    <string name="finishCancel">Finish without adding treatment plan?</string>
+
+    <string name="cancel_work">Going back will reset this form</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="physician_type_array">
+        <item>Doctor</item>
+        <item>Nurse</item>
+    </string-array>
+
+    <string-array name="physician_salutation">
+        <item>Dr.</item>
+        <item></item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="must_chose_med_group_cat">You must chose a Medication Category</string>
+    <string name="must_chose_med_cat">You must chose a Medication</string>
+    <string name="must_set_dose">You must set a dose and number of times per day</string>
+    <string name="invalid_med_group">Invalid Medication Group Category</string>
+    <string name="invalid_med_cat">Invalid Medication Category</string>
+    <string name="healthy_diet">Healthy Diet</string>
+    <string name="lifestyle_scorecard">Lifestyle Score Card</string>
+    <string name="physical_activity">Physical Activity</string>
+    <string name="tobacco_use">Tobacco Use</string>
+    <string name="alcohol_use">Alcohol Use</string>
+    <string name="clinic">Clinic</string>
+    <string name="next_visit">Next Visit</string>
+
+    <!-- Provider talking points -->
+    <string-array name="tp_healthy_diet">
+        <item>You eat enough fruits and vegetables</item>
+        <item>You eat less than recommended 5 daily portions of fruits and vegetables</item>
+        <item>You have to start eating fruits and vegetables</item>
+    </string-array>
+    <string-array name="tp_physical_activity">
+        <item>You exercise less than the recommended time of 30 minutes a day</item>
+        <item>You seem to get enough exercise</item>
+    </string-array>
+    <string-array name="tp_tobacco_use">
+        <item>It is good that you do not smoke tobacco</item>
+        <item>It is good that you do not smoke tobacco</item>
+        <item>You should quit smoking</item>
+    </string-array>
+    <string-array name="tp_alcohol_use">
+        <item>You should lower your alcohol consumption to less than 2 drinks a day</item>
+        <item>You should lower your alcohol consumption to less than 2 drinks a day</item>
+        <item>It is good that you do not drink much alcohol</item>
+        <item>It is good that you do not drink alcohol</item>
+    </string-array>
+    <string name="updating">Update in progress</string>
+    <string name="update_message">Application is checking for update. Login disabled until complete.</string>
+
+
+</resources>

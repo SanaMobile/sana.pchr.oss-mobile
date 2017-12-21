@@ -1,0 +1,13 @@
+
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/tasks.xml
+/.idea/encodings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+.gradle
+/build
+*.iml
+.DS_Store

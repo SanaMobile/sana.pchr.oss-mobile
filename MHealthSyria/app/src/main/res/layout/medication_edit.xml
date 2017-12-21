@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llMedGroup"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medication_group"
+            style="@style/TextStyle.black.small"
+            android:id="@+id/tvMedGroup" />
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/actvMedGroup"
+            android:completionThreshold="1"
+            android:dropDownHeight="300dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/llMedCat">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medication"
+            style="@style/TextStyle.black.small"
+            android:id="@+id/tvMedCat" />
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/actvMedCat"
+            android:completionThreshold="1"
+            android:dropDownHeight="300dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/llDose">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_med_dose_label"
+            style="@style/TextStyle.black.small"
+            android:layout_gravity="bottom" />
+        <EditText
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:inputType="number|numberDecimal"
+            android:ems="10"
+            android:id="@+id/etDose"
+            android:layout_gravity="bottom"
+            android:maxLength="5" />
+
+        <Spinner
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinDoseUnit"
+            android:layout_gravity="right"
+            android:layout_weight="0.30" />
+
+        <EditText
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etTimes"
+            android:layout_gravity="bottom"
+            android:maxLength="1" />
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle.black.small"
+            android:id="@+id/tvInterval"
+            android:text="@string/edit_med_times"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.84" />
+
+        <Spinner
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinIntervalUnit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <EditText
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etInterval"
+            android:layout_gravity="bottom" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comment"
+            android:id="@+id/tvComment"
+            style="@style/TextStyle.black.small"
+            android:layout_gravity="bottom|right" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/etComment"
+            android:layout_gravity="bottom"
+            android:maxLength="255" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/endDate"
+            style="@style/TextStyle.black.small"
+            android:id="@+id/tvEndDateLabel"
+            android:visibility="invisible" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/never"
+            style="@style/TextStyle.black.small"
+            android:id="@+id/tvEndDate"
+            android:visibility="invisible" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pick"
+            android:id="@+id/bPickDate"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_medication"
+        android:id="@+id/bStop"
+        android:visibility="gone"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/bCancel"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:id="@+id/bOk"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvInteraction"
+        android:textColor="@color/red_bad"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+</LinearLayout>

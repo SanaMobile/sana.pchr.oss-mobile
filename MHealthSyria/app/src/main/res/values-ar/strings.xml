@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_doc_question_label">  السؤال الأمني</string>
+    <string name="action_settings">  الضبط</string>
+    <string name="invalid_pin_format"> %d :رمز خاطئ .  عدد المحاولات المتبقية    </string>
+    <string name='ok'> أجل</string>
+    <string name="sync_now"> أحدث تزامن</string>
+    <string name="pin"> أدخل الرمز</string>
+    <string name="add"> أضف</string>
+    <string name="addPatient"> أضف مريض جديد</string>
+    <string name="searchPatient"> ابحث عن المريض</string>
+    <string name="loading"> استرجاع المعلومات</string>
+    <string name="first_name_colon"> الاسم الأول: </string>
+    <string name="first_name"> الاسم الأول</string>
+    <string name="searchOnline"> البحث عبر الانترنت </string>
+    <string name='searchPhys'> البحث عن الطبيب</string>
+    <string name="email_colon"> البريد الالكتروني: </string>
+    <string name="edit_med_dose_label"> الجرعة</string>
+    <string name="menu_text_logout"> الخروج</string>
+    <string name="login"> الدخول</string>
+    <string name='stop'> انتهاء</string>
+    <string name="finish"> انتهاء</string>
+    <string name='finishPrint'> انتهاء وطباعة</string>
+    <string name='start'> بدء</string>
+    <string name='endDate'> تاريخ الانتهاء</string>
+    <string name="edit_med_end_date"> تاريخ الانتهاء</string>
+    <string name='modify'> تعديل </string>
+    <string name='comment'> تعليق: </string>
+    <string name="default_comments"> تعليق: </string>
+    <string name='error'> خطأ</string>
+    <string name="phone_colon"> رقم الهاتف:</string>
+    <string name='no'> كلا</string>
+    <string name="connectionNone"> لا يوجد اتصال بشبكة الانترنت</string>
+    <string name="clear"> مسح</string>
+    <string name="scanID"> مسح رمز المريض</string>
+    <string name="dialog_text_clear_title"> مسح?</string>
+    <string name="forgot_pin"> نسيت الرمز </string>
+    <string name='yes'> نعم</string>
+    <string name="physician_server_search_error"> يجب ادخال رقم الهاتف أو البريد الالكتروني</string>
+    <string name="credential_choose_clinic">اختر العيادة</string>
+    <string name="last_name">الكنية أو اسم العائلة</string>
+    <string name="last_name_colon">الكنية أو اسم العائلة  :</string>
+    <string name="scan_unsuccessful">المسح غير ناجح. اعادة المحاولة؟</string>
+    <string name='answer'>جواب</string>
+    <string name="city_of_birth_colon">مكان الولادة:</string>
+    <string name="city_of_birth">مكان الولادة</string>
+
+    <string name='cancel'>الغاء</string>
+    <string name="active_meds">أسماء الأدوية الحالية</string>
+    <string name="add_doc_pin_info_tv">رمز التعريف الخاص بك للدخول مؤلف من ٤ أرقام</string>
+    <string name="add_doc_pin_label_tv">رمز التعريف </string>
+    <string name="add_doc_recover_info_tv">استعمل السؤال البديل في حال نسيان رمز التعريف</string>
+    <string name="add_patient_tv_info">الرجاء ادخال معلومات المريض في الأسفل</string>
+    <string name="add_record">اضافة طلب</string>
+    <string name="add_test">اضافة اختبار</string>
+    <string name="adding_patient">اضافة مريض</string>
+    <string name="age">العمر:</string>
+    <string name="alt_login">الرمز غير موجود</string>
+    <string name="category">سبب الزيارة</string>
+    <string name="check_device_provision">مصادقة</string>
+    <string name="checking_please_wait">التاكد من المصادقة ومعلومات المستخدم … الرجاء الانتظار</string>
+    <string name="chose_category_prompt">الرجاء اختيار نوع المرض </string>
+
+    <string name="confirm">تأكيد   </string>
+    <string name="credential_list">لائحة الاعتماد</string>
+    <string name="credentialing">الاعتمادات</string>
+    <string name="default_value_result">النتيجة</string>
+    <string name="delete_meds">الغاء الدواء؟</string>
+    <string name="delete">مسح</string>
+    <string name="downloading_clinic_wait">تنزيل لأئحة العيادات … الرجاء الانتظار</string>
+    <string name="downloading_cred_list_wait">تنزيل لأئحة المستخدمين … الرجاء الانتظار</string>
+    <string name="edit_med_times">عدد المرات في كل</string>
+    <string name="error_adding_new_patient">خطأ في زيادة مريض جديد</string>
+    <string name="error_creating_record">خطأ في احداث الملف</string>
+    <string name="failure">لم يتم الاتصال بالانترنت</string>
+    <string name="gender">النوع الاجتماعي (جندر)</string>
+    <string name="got_cred_list">تم استخراج لائحة المستخدمين بنجاح</string>
+    <string name="homepage_welcom_tv">اهلا بكم</string>
+    <string name="invalid_bounds">المعدل خارج النطاق المسموح</string>
+    <string name="invalid">غير صحيح</string>
+    <string name="loggin_successful">عملية الدخول ناجحة</string>
+    <string name="loggin_unsuccessful">عملية الدخول غير ناجحة</string>
+    <string name="logging_out_user">خروج المستخدم</string>
+    <string name="looking_up_patient">البحث عن المريض. الرجاء الانتظار</string>
+    <string name="make_order"> التوصيات</string>
+    <string name="medication_category">اسم الدواء</string>
+    <string name="medication_group">عائلة الدواء</string>
+    <string name="medication">الدواء</string>
+    <string name="must_first_name">يجب ادخال الاسم الأول</string>
+    <string name="must_last_name">يجب ادخال اسم العائلة أو الكنية</string>
+    <string name="never">أبدا</string>
+    <string name="no_patients_found">عدم ايجاد المرضى</string>
+    <string name="not_update_cred_no_internet">عدم التمكن من تنزيل لائحة المستخدمين. لا يوجد انترنت</string>
+    <string name="options">الإجراءات</string>
+    <string name="patient_not_found">عدم القدرة على ايجاد المريض</string>
+    <string name="patient_selected_dialog_title">تأكيد اختيار المريض</string>
+    <string name="physician_server_search_title">أدخل على الأقل واحد من الحقول أدناه</string>
+    <string name="pick">اختر التاريخ</string>
+    <string name="pin_colon">رمز التعريف:</string>
+    <string name="please_wait">الرجاء الانتظار …</string>
+    <string name="recomendations">التعليمات</string>
+    <string name="recommend_test"> الاختبار المطلوب</string>
+    <string name="save">حفظ</string>
+    <string name="scan_again">هل تريد التفحص مجددا</string>
+    <string name="scan">تفحص</string>
+    <string name="search_by_colon">البحث عبر:</string>
+    <string name="search_by">البحث عبر</string>
+    <string name="search_server">المريض غير موجود، ابحث في الانترنت</string>
+    <string name="search">ابحث</string>
+    <string name="stop_medication">أوقف الدواء</string>
+    <string name="success_provision_device">استخراج الائحة بنجاح</string>
+    <string name="toast_input_unchr">الرجاء ادخال رقم UNHCR \رقم تعريف بديل ثم حاول مجددا</string>
+    <string name="unchr_colon">رقم UNHCR\رقم التعريف:</string>
+    <string name="UNCHR">رقم UNHCR\رقم التعريف</string>
+    <string name="update_record">تحديث الملف</string>
+    <string name="user_not_found">المستخدم غير موجود</string>
+    <string name="value_colon">القيمة: </string>
+    <string name="value">القيمة</string>
+    <string name="wait_record_adding">الرجاء الانتظار أثناء اضافة الملف</string>
+    <string name="year_of_birth_colon">سنة الولادة: </string>
+    <string name="year_of_birth">سنة الولادة</string>
+    <string name="suggested_med_title">الأدوية المقترحة</string>
+
+    <string name="add_medical_history">التاريخ الطبي</string>
+    <string name="add_physical_exam">الفحص الطبي</string>
+    <string name="add_lab_test">الفحوصات المخبرية</string>
+    <string name="minimum">:الحد الأدنى</string>
+
+    <string name="maximum">:الحد الأقصى</string>
+    <string name="provider_id">رقم ملف المريض </string>
+    <string name="type">المهنة </string>
+    <string name="edit_patient">تغير في معلومات المريض </string>
+    <string name="password">كلمة المرور </string>
+    <string name="downloading_data_wait">تنزيل المعلومات الأساسية </string>
+    <string name="name">الأسم :</string>
+
+    <string name="disclaimer">:اخلاء المسؤولية</string>
+
+
+    <string name="must_chose_med_group_cat">عليك اختيار عائلة الدواء</string>
+    <string name="must_chose_med_cat">عليك اختيار الدواء</string>
+    <string name="must_set_dose">عليك تحديد الجرعة وعدد المرات في اليوم</string>
+    <string name="invalid_med_group">عائلة الدواء غير مسموح بها </string>
+    <string name="invalid_med_cat">فئة الدواء غير مسموح بها </string>
+    <string name="healthy_diet">نظام غذائي صحي</string>
+    <string name="lifestyle_scorecard">بطاقة نتائج نمط الحياة</string>
+    <string name="physical_activity">النشاط البدني</string>
+    <string name="tobacco_use">استهلاك التبغ</string>
+    <string name="alcohol_use">استهلاك الكحول</string>
+    <string name="clinic">العيادة</string>
+    <string name="next_visit">الزيارة المقبلة</string>
+
+    <string name="medication_name">اسم الدواء</string>
+
+    <string name="title_activity_print_dialog">اطبع</string>
+
+    <string name="adjust_dose">غير الجرعة: </string>
+
+    <string name="test">الفحص</string>
+    <string name="date">التاريخ</string>
+    <string name="doctor_name">الطبيب</string>
+
+    <string name="finishCancel">الانتهاء من دون إضافة خطة العلاج؟</string>
+    <string name="cancel_work">وبالعودة سيتم إعادة تعيين هذا النموذج</string>
+
+    <string-array name="gender_array">
+        <item>ذكر</item>
+        <item>أنثى</item>
+    </string-array>
+
+    <string-array name="physician_type_array">
+        <item>الطبيب </item>
+        <item>الممرض/الممرضة </item>
+    </string-array>
+
+    <string-array name="physician_salutation">
+        <item>Dr. </item>
+        <item></item>
+    </string-array>
+    <!-- Provider talking points -->
+    <string-array name="tp_healthy_diet">
+        <item>تأكل ما يكفي من الفواكه والخضروات</item>
+        <item>تأكل أقل من  ٥ حصص الموصى بها يوميا من الفواكه والخضروات
+</item>
+        <item>عليك أن تبدأ تناول الفواكه والخضروات</item>
+    </string-array>
+    <string-array name="tp_physical_activity">
+        <item>تمارس أقل من ۳۰ دقيقة من الرياضة الموصى بها يوميا</item>
+        <item>يبدو أنك تمارس ما يكفي من الرياضة</item>
+    </string-array>
+    <string-array name="tp_tobacco_use">
+        <item>انه لامر جيد انك لا تدخن </item>
+        <item>انه لامر جيد انك لا تدخن </item>
+        <item>يجب أن تقلع عن التدخين</item>
+    </string-array>
+    <string-array name="tp_alcohol_use">
+        <item>ييجب خفض استهلاك الكحول إلى أقل من 2 المشروبات يوميا</item>
+        <item>ييجب خفض استهلاك الكحول إلى أقل من 2 المشروبات يوميا</item>
+        <item>انه لامر جيد ان كنت لا تشرب الكثير من الكحول</item>
+        <item>انه لامر جيد ان كنت لا تشرب الكثير من الكحول</item>
+    </string-array>
+    <string name="updating">جاري التحديث</string>
+    <string name="update_message">يتم التحقيق في تحديث التطبيق. عملية الدخول معطلة الى حين اكتمال التحقيق.</string>
+</resources>

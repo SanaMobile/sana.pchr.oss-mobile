@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="@dimen/default_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:textSize="@dimen/default_large_text"
+        android:id="@+id/tvUsername"
+        android:layout_marginBottom="@dimen/default_horizontal"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.smarking.mhealthsyria.app.view.custom.SquareImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ivUserPicture"
+                android:src="@drawable/default_profile_picture" />
+
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_margin="@dimen/default_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/pin_colon"
+                    android:textSize="@dimen/default_text_size"
+                    android:id="@+id/tvPIN"
+                    />
+
+
+                <EditText
+                    android:id="@+id/etPIN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPIN"
+                    android:hint="@string/pin"
+                    android:textSize="@dimen/default_text_size"
+                    android:inputType="numberPassword"/>
+
+                <Button
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etPIN"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/forgot_pin"
+                    android:id="@+id/bForgotPIN"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/default_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                    <Button
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cancel"
+                        android:layout_marginRight="@dimen/default_horizontal"
+                        android:id="@+id/bClear" />
+
+
+                    <Button
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login"
+                        android:layout_marginLeft="@dimen/default_horizontal"
+                        android:id="@+id/bLogin" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>

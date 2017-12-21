@@ -1,0 +1,105 @@
+<resources>
+    <!-- Color definition -->
+    <color name="white">#FFFFFF</color>
+    <color name="green">#32CD32</color>
+    <color name="gr_good">#009900</color>
+    <color name="or_med">#FF8000</color>
+    <color name="red_bad">#FF0000</color>
+    <color name="blue">#009999</color>
+    <color name="grey">#C0C0C0</color>
+    <color name="pink">#F0D0F2</color>
+    <color name="aqua_marine">#66CDAA</color>
+    <color name="black">#000000</color>
+    <color name="purple">#E7CFFF</color>
+    <color name="sana_blue">#174A98</color>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <!-- Button style definition -->
+    <style name="ButtonStyle" parent="TextStyle">
+        <item name="android:background" >@drawable/button_style</item>
+        <item name="android:layout_width" >wrap_content</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:layout_marginTop" >10dp</item>
+    </style>
+
+    <style name="ButtonStyle.grey" parent="ButtonStyle">
+        <item name="android:background">@drawable/button_style_grey</item>
+    </style>
+
+    <!-- Text Style definition -->
+    <style name="TextStyle">
+        <item name="android:textSize">30dp</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="TextStyle.small">
+        <item name="android:textSize">25dp</item>
+    </style>
+
+    <style name="TextStyle.black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextStyle.blackbold" parent="@style/TextStyle">
+        <item name="android:textColor">@color/printDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14pt</item>
+    </style>
+
+    <style name="TextStyle.black.small">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="TextStyle.grey">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <!-- ActionBar Style definition -->
+    <style name="ActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse" >
+        <item name="android:background">@color/sana_blue</item>
+        <item name="android:titleTextStyle">@style/TextStyle</item>
+        <item name="android:icon">@mipmap/sana_logo</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/sana_blue</item>
+        <item name="titleTextStyle">@style/TextStyle</item>
+
+    </style>
+
+    <style name="lifestyleTextLeft">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">18pt</item>
+        <item name="android:layout_margin">3dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:width">356dip</item>
+        <item name="android:textColor">@color/printDark</item>
+    </style>
+    <style name="lifestyleTextRight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">18pt</item>
+        <item name="android:layout_margin">3dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/printDark</item>
+    </style>
+</resources>
