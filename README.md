@@ -1,4 +1,11 @@
-sana.pchr
-=========
+sana.pchr.oss-mobile
+====================
 
-NCD management
+Patient Controlled Health Record(PCHR) Android application
+
+Build Instructions
+TODO
+
+
+
+

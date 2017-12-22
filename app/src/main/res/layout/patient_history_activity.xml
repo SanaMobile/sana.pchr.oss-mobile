@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.smarking.mhealthsyria.app.view.patient.PatientHistoryActivity">
+
+    <FrameLayout
+        android:layout_weight="30"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/default_vertical_margin"
+        android:background="@drawable/rounded_background_blue"
+        android:id="@+id/patient_info_frame" />
+
+    <FrameLayout
+        android:layout_weight="67"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/default_vertical_margin"
+        android:background="@drawable/rounded_background_blue"
+        android:id="@+id/patient_history_frame" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/bAddTestHist"
+            android:text="@string/add_medical_history"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/bAddTestPhys"
+            android:text="@string/add_physical_exam"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/bAddTestLab"
+            android:text="@string/add_lab_test"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/bFinish"
+            android:text="@string/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/bMakeOrder"
+            android:text="@string/make_order"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "edu.mit.mhealthsyria.app"
+        minSdkVersion 17
+        targetSdkVersion 22
+        versionCode 9
+        versionName "1.9"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            pseudoLocalesEnabled true
+        }
+        debug {
+            debuggable true
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/commons-codec.jar')
+    compile files('libs/guava-r09.jar')
+    compile files('libs/sqlcipher.jar')
+    compile files('libs/zbar.jar')
+    compile 'com.android.support:appcompat-v7:22.0.0'
+    compile 'com.parse.bolts:bolts-android:1.1.4'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'me.dm7.barcodescanner:zxing:1.6.3'
+    compile 'com.madgag.spongycastle:core:1.51.0.0'
+    compile 'com.android.support:support-v4:21.0.3'
+}

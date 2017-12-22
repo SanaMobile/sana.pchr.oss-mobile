@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diet_mod_val">5+ portions of fruits and vegetables daily</string>
+    <string name="diet_mod_com">An unhealthy diet increases your risk of being over weight.  Try to eat more fruits and vegetables, at least 5 servings a day. Also try to reduce the amount of salt and saturated fats that you eat.</string>
+    <string name="exercise_mod_val">30+ minutes daily</string>
+    <string name="exercise_mod_com">Lack of physical activity increases risk of cardiovascular disease, diabetes and some cancers.  Increase the amount of time you spend on physcial activity.</string>
+    <string name="smoking_mod_val">Stop smoking</string>
+    <string name="smoking_mod_com">Tobacco use increases risk for cancer, lung diseases, heart attack and stroke.  Try to stop using tobacco from today onwards.</string>
+    <string name="alcohol_mod_val">2 or less drinks per day</string>
+    <string name="alcohol_mod_com">Consuming a lot of alcohol can damage the liver and increase your risk of mental illness and alcochol related death.  Try to limit the amount of alcoh you consume each day.</string>
+
+    <string name="pneum_vac_val">If you have not received a pneumococcal vaccine you should get one</string>
+    <string name="infl_vac_val">If you have not received an influenza vaccination this year you should get one</string>
+
+    <string name="referral_dentist">Refer to dentist, get dental exam</string>
+    <string name="referral_opthalmologist">Get eye exam</string>
+    <string name="dentist">Dentist</string>
+    <string name="opthalmologist">Ophthalmologist</string>
+
+    <string name="pneum_vac_val_ar">لجميع الاستشارات: اذا لم تحصل على لقاح المكورات الرئوية بعد، فعليك الحصول عليه</string>
+    <string name="infl_vac_val_ar">من ١أيلول الى ٢٨شباط: اذا لم تحصل على لقاح الانفلونزا لهذا العام بعد، فعليك الحصول عليه</string>
+
+    <string name="referral_dentist_ar">احصل على فحص الأسنان</string>
+    <string name="dentist_ar">طبيب الأسنان</string>
+    <string name="referral_opthalmologist_ar">احصل على فحص النظر</string>
+    <string name="opthalmologist_ar">طبيب العيون</string>
+
+
+    <string name="get_hypertension_test_ar">احصل على ثلاثة نتائج لضغط الدم في ايام مختلفة خلال شهر</string>
+
+    <string name="get_hypertension_test">Get 3 more measurements of blood pressure on different days within 1 month</string>
+
+    <string name="disclaimer_txt">
+        Recommendations are generated based on patient information and guidelines for the management of diabetes and hypertension.  Recommendations are intended to aid providers in decision making, however, clinical diagnoses and treatment recommendations are the responsibility of the physician and should be based on the individual case.
+    </string>
+
+    <string-array name="test_cat_dividers">
+        <item>Reason for Presentation and Medical History</item>
+        <item>Current Symptoms </item>
+        <item>Life Style</item>
+        <item>Clinical Measurements </item>
+        <item>Clinical Observations</item>
+        <item>Laboratory Tests</item>
+        <item>Referral Examination Results</item>
+    </string-array>
+
+</resources>
+
